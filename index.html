@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Array Methods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>JavaScript Array Methods</h1>
+
+        <input type="text" id="fruitInput"
+        placeholder="Enter fruit name">
+
+        <button onclick="addFruit()">Add Fruit</button>
+
+        <h2>My Fruits:</h2>
+
+        <ul id="fruitList"></ul>
+
+        <div class="buttons">
+            <button onclick="removeLast()">Pop</button>
+            <button onclick="removeFirst()">Shift</button>
+            <button onclick="sortFruits()">Sort</button>
+            <button onclick="reverseFruits()">Reverse</button>
+            <button onclick="showLength()">Length</button>
+            <button onclick="showUppercase()">Map</button>
+            <button onclick="filterFruits()">Filter</button>
+            <button onclick="joinFruits()">Join</button>
+        </div>
+
+        <h2>Output:</h2>
+        <p id="output">Your result will appear here.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
